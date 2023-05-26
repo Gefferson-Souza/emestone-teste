@@ -503,6 +503,7 @@ section {
 
 .perguntas-frequentes {
     margin-bottom: 20px;
+    max-width: 600px;
 }
 
 .question {
@@ -578,7 +579,7 @@ footer {
 }
 
 
-@media (min-width:700px){
+@media (min-width:768px){
     p, span, li{
         font-size: 1.2em !important;
     }
@@ -695,6 +696,16 @@ footer {
         justify-content: center;
         align-items: center;
         padding-bottom: 60px;
+        max-width: 730px;
+    }
+
+
+    .section-5 .order-2 {
+        max-width: 730px;
+    }
+    .section-5 .order-2 strong {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
     }
 
     .section-5 .order-1 .item-1 {
@@ -703,7 +714,8 @@ footer {
         flex-flow: column nowrap;
     }
     .section-5 .order-1 .item-1 p {
-        margin: 5px 0;
+        margin: 20px 0;
+        line-height: 150%;
     }
     .section-5 .order-1 .item-2 {
         flex-basis: 40%;
@@ -728,7 +740,7 @@ footer {
     }
 
     .section-6 table {
-        max-width: 750px;
+        max-width: 730px;
     }
 
     .section-6 table thead th{
@@ -770,7 +782,7 @@ footer {
     }
 
     .section-7 article {
-        max-width: 750px;
+        max-width: 730px;
     }
 
     .section-7 h2 {
@@ -786,7 +798,7 @@ footer {
     }
 
     .section-8 .perguntas-frequentes {
-        max-width: 750px;
+        max-width: 600px;
     }
 
     .section-8 .btn-maior {
@@ -796,7 +808,7 @@ footer {
     }
 
     .section-8 article h2 {
-        font-size: 3.3em !important;
+        font-size: 3em !important;
     }
 
     .section-8 h3 {
@@ -857,8 +869,12 @@ footer {
         margin-right: 33px;
     }
 
-    .section-5 .order-1, .section-5 .order-2 {
-        max-width: 1024px !important;
+    .section-5 .order-1, .section-5 .order-2{
+        max-width: 730px !important;
+    }
+
+    .section-5 {
+        display: grid;
     }
 
 
@@ -896,7 +912,5 @@ footer {
         grid-column: 2 / 4;
     }
 
-    .section-5 {
-        display: grid;
-    }
+    
 }
