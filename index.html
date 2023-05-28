@@ -464,6 +464,16 @@
         trocarPalavra();
         setInterval(trocarPalavra, 2000);
 
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.carousel-caption h5').forEach(title => {
+                var novoTitulo = document.createElement('h2');
+                novoTitulo.innerHTML = title.innerHTML;
+                title.parentNode.replaceChild(novoTitulo, title);
+            });
+        });
+
+        console.log(document.querySelectorAll('.carousel-caption'));
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
