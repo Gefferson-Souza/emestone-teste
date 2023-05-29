@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+    scroll-behavior:smooth !important;
     font-family: 'Oswald', sans-serif;
 }
 hr {
@@ -19,7 +19,7 @@ li {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth !important;
 }
 
 article {
@@ -258,7 +258,7 @@ section {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 .section-2 p {
@@ -514,6 +514,13 @@ section {
     margin-bottom: 20px;
 }
 
+.section-7 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
 
 
 
@@ -574,10 +581,19 @@ section {
     border-left: 2px solid #ccc;
     transition: max-height 0.3s ease-in-out;
     text-align: left;
-    color: #555;
-    font-size: 16px;
+    color: #424242;
+    font-size: 14px;
     background-color: #f2f2f2;
     border-radius: 4px;
+}
+
+.answer p {
+    padding-top: 5px;
+}
+
+.answer p strong {
+    font-family: 'Inter', sans-serif;
+
 }
 
 .question.active h3::after {
@@ -865,8 +881,6 @@ footer {
     .section-7 h2 {
         font-size: 2.8em !important;
     }
-
-    
 
     .section-7 .carousel-caption h2 {
         font-size: 1.25rem !important;
