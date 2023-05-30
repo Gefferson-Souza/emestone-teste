@@ -629,13 +629,14 @@ footer {
   
   .footer ul li a {
     text-decoration: none;
-    color: #59CC5D;
+    color: #fff;
     font-size: 14px;
   }
   
   .footer ul li a:hover {
     text-decoration: underline;
-    color: #fff;
+    
+    color: #59CC5D;
   }
   
   .legal-notice {
