@@ -511,14 +511,19 @@ section {
 }
 
 .section-7 .btn-cadastre {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .section-7 img {
-    width: 100%;
+    width: 70%;
+    max-width: 500px;
+    max-height: 500px;
     height: auto;
     object-fit: cover;
+    margin-left: 15%;
 }
+
 
 
 
@@ -662,15 +667,15 @@ footer {
 
 @keyframes fade {
     0% {
-        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+        color: #f2f2f2;
     }
     100% {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        color: #59CC5D;
     }
 }
 
 
-@media (min-width:730px){
+@media (min-width:768px){
     p, span, li{
         font-size: 1.2em !important;
     }
@@ -887,6 +892,22 @@ footer {
         font-size: 1.25rem !important;
     }
 
+    .section-7 .carousel-caption {
+        position: unset;
+        width: 700px;
+        height: 200px;
+    }
+
+    .section-7 .carousel-item a {
+        text-decoration: none;
+    }
+
+    .section-7 img {
+        margin: unset;
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
 
 
 
