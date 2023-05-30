@@ -661,10 +661,6 @@ footer {
 }
 
 
-#word {
-    animation: fade 2s both cubic-bezier(0.5, 0, 0.5, 1) infinite;
-}
-
 @keyframes fade {
     0% {
         color: #f2f2f2;
